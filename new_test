@@ -1,6 +1,6 @@
 // Exported from:        http://xenotron.local:5516/#/templates/Release518c6b90058344678db3b9a091f8fe84/releasefile
 // XL Release version:   0.0.0-SNAPSHOT
-// Date created:         Fri Jun 08 17:16:59 CEST 2018
+// Date created:         Fri Jun 08 17:18:50 CEST 2018
 
 def scmConnectorConfig1 = 'PLEASE IMPLEMENT THIS METHOD'
 
