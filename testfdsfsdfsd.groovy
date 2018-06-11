@@ -1,6 +1,6 @@
 // Exported from:        http://xenotron.local:5516/#/templates/Releaseb74271f68296415e9801aaaebc7ecb1a/releasefile
 // XL Release version:   0.0.0-SNAPSHOT
-// Date created:         Mon Jun 11 17:04:48 CEST 2018
+// Date created:         Mon Jun 11 17:10:31 CEST 2018
 
 xlr {
   template('fdsafsda') {
