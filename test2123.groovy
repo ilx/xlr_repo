@@ -1,6 +1,6 @@
 // Exported from:        http://xenotron.local:5516/#/templates/Release83a6a4f44a2048af8fd8ef2b628ac9b5/releasefile
 // XL Release version:   0.0.0-SNAPSHOT
-// Date created:         Tue Jun 12 15:51:38 CEST 2018
+// Date created:         Tue Jun 12 16:04:12 CEST 2018
 
 xlr {
   template('test attachment') {
@@ -8,14 +8,20 @@ xlr {
     phases {
       phase('New Phase') {
         tasks {
-          manual('fdsafda') {
-            attachments {
-              attachment("sql:Attachmentf05c728a80bf4f5e8e5582ca19b396a1") {
-                filename "attachments/Attachmentf05c728a80bf4f5e8e5582ca19b396a1-quokka.gif"
-              }
+          custom('xsacxc') {
+            script {
+              type 'jira.CreateIssue'
+              username 'fdsfdsg'
+              project 'gfdsgfds'
+              title 'gfdsgfds'
             }
           }
         }
+      }
+    }
+    attachments {
+      attachment("sql:Attachmentf05c728a80bf4f5e8e5582ca19b396a1") {
+        filename "attachments/Attachmentf05c728a80bf4f5e8e5582ca19b396a1-quokka.gif"
       }
     }
     teams {
