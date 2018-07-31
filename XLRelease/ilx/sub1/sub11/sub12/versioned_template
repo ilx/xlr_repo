@@ -1,6 +1,6 @@
 // Exported from:        http://xenotron.home:5516/#/templates/Folderfc6c80da2fa74fda86b7b1fa063b2fbf-Releaseb5eccb77070845b7a0f6f31bb73a4762/releasefile
 // XL Release version:   8.1.0-SNAPSHOT
-// Date created:         Tue Jul 31 14:39:04 CEST 2018
+// Date created:         Tue Jul 31 14:41:52 CEST 2018
 
 xlr {
   template('versioned_template') {
@@ -8,7 +8,11 @@ xlr {
     scheduledStartDate Date.parse("yyyy-MM-dd'T'HH:mm:ssZ", '2018-07-31T09:00:00+0200')
     phases {
       phase('New Phase') {
-        
+        tasks {
+          manual('manual task') {
+            
+          }
+        }
       }
     }
     
