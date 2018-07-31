@@ -1,6 +1,6 @@
 // Exported from:        http://xenotron.home:5516/#/templates/Folderfc6c80da2fa74fda86b7b1fa063b2fbf-Releaseb5eccb77070845b7a0f6f31bb73a4762/releasefile
 // XL Release version:   8.1.0-SNAPSHOT
-// Date created:         Tue Jul 31 14:50:38 CEST 2018
+// Date created:         Tue Jul 31 14:53:12 CEST 2018
 
 xlr {
   template('versioned_template') {
@@ -22,6 +22,9 @@ xlr {
                 filename "attachments/Attachmentaa3133c1236148b58512aef669818566-quokka.gif"
               }
             }
+          }
+          manual('task3') {
+            
           }
         }
       }
