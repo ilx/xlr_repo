@@ -1,6 +1,6 @@
 // Exported from:        http://xenotron.home:5516/#/templates/Folderfc6c80da2fa74fda86b7b1fa063b2fbf-Releaseb5eccb77070845b7a0f6f31bb73a4762/releasefile
 // XL Release version:   8.1.0-SNAPSHOT
-// Date created:         Tue Jul 31 14:44:24 CEST 2018
+// Date created:         Tue Jul 31 14:50:38 CEST 2018
 
 xlr {
   template('versioned_template') {
@@ -11,8 +11,15 @@ xlr {
         tasks {
           manual('manual task') {
             attachments {
-              attachment("sql:Attachmente6e4a39ba3eb46ba981cd763ebad05e6") {
-                filename "attachments/Attachmente6e4a39ba3eb46ba981cd763ebad05e6-quokka.gif"
+              attachment("sql:Attachment5d0bfbc73d06424b9feff0ea23fc3fdf") {
+                filename "attachments/Attachment5d0bfbc73d06424b9feff0ea23fc3fdf-quokka.gif"
+              }
+            }
+          }
+          manual('task2') {
+            attachments {
+              attachment("sql:Attachmentaa3133c1236148b58512aef669818566") {
+                filename "attachments/Attachmentaa3133c1236148b58512aef669818566-quokka.gif"
               }
             }
           }
